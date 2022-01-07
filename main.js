@@ -100,7 +100,7 @@ var randomNumber = "";
 generateBtn.addEventListener("click", function () {
   // The following enables the user to specify password length
   var chosenLength = prompt(
-    "How many characters would you like to include in your password?"
+    "How many characters would you like to include in your password? (Must be between 8 and 128 characters)"
   );
   // Below specifies min and max password lengths and ends the function if requirements aren't met
   if (chosenLength < 8 || chosenLength > 128) {
